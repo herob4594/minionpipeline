@@ -21,8 +21,8 @@ IMPORTANT!
 All these programmes have been assumed to be within the same directory (see code for more details), and the user will be asked to state the directory all the above programmes are stored in. 
 
 This is a proposed pipeline to take long reads from MinION runs to then output assembled and aligned FASTA sequences based upon calling existing programmes.
-The initial design will be based upon taking the 5kilobase Direct repeat region of Mycobacterium complex species and return consensus sequence (FASTQ and FASTA) and spoligotype.  
-It include multiple print statements along the way to indicate how the process is progressing 
+The initial design will be based upon taking the 5kilobase Direct repeat region of Mycobacterium complex species and return a consensus sequence (FASTQ and FASTA) and spoligotype.  
+It includes multiple print statements along the way to indicate how the process is progressing. 
 
 Rough pipeline: 
 MinION run with PCR amplified 5kb direct repeat region from M. bovis organism
@@ -68,4 +68,4 @@ python2.7 /opt/SpoTyping-2.1/SpoTyping-v2.1-commandLine/SpoTyping.py --seq polis
 #Spoligotype then taken from the consensus direct repeat region 
 
 
-
+A paper displaying the full methods of the whole process (from sampling of bacteria to returned in silico spoligotype) will be released soon. 
